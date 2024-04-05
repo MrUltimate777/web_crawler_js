@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node main.js"
+    "start": "node main.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/MrUltimate777/web_crawler_js/issues"
   },
-  "homepage": "https://github.com/MrUltimate777/web_crawler_js#readme"
+  "homepage": "https://github.com/MrUltimate777/web_crawler_js#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
